@@ -1,0 +1,18 @@
+# adder
+# 3 inputs
+# 2 outputs
+# 0 inverter
+# 5 gates ( 6 NANDs )
+
+INPUT(1)
+INPUT(2)
+INPUT(3)
+
+OUTPUT(12)
+OUTPUT(13)
+
+4 = XOR(1, 2)
+12 = XOR(4, 3)
+5 = AND(4, 3)
+6 = AND(1, 2)
+13 = OR(5, 6)
